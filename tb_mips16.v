@@ -44,21 +44,12 @@ module tb_mips16;
         $finish;  
     end  
 
-    // Waveform Dumping for GTKWave or Other Viewers
+    // Waveform Dumping for GTKWave (Optional)
     initial begin
         $dumpfile("tb_mips16.vcd");      // Specify the VCD file name
         $dumpvars(0, tb_mips16);         // Dump all variables in tb_mips16
     end
 
-    // Optional: Monitor Outputs in the Console
-    initial begin
-        // Uncomment and adjust if you have additional outputs to monitor
-        // $monitor("Time: %0t | PC: %h | ALU Result: %h | Reg3: %h | Reg4: %h", 
-        //          $time, pc_out, alu_result, reg3, reg4);
-        
-        // Basic monitoring of PC and ALU Result
-        $monitor("Time: %0t | PC: %h | ALU Result: %h", 
-                 $time, pc_out, alu_result);
     end
 
 endmodule  
