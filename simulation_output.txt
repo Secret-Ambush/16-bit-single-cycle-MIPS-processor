@@ -1,4 +1,48 @@
-** VVP Stop(0) **
-** Flushing output streams.
-** Current simulation time is 2873528600000 ticks.
-** Continue **
+VCD info: dumpfile tb_mips16.vcd opened for output.
+Time: 0 | PC: 0000 | ALU Result: 0000
+Time: 1100000 | PC: 0002 | ALU Result: 0001
+Time: 1300000 | PC: 0004 | ALU Result: 0000
+Time: 1500000 | PC: ffd4 | ALU Result: 0000
+Time: 1700000 | PC: ffd6 | ALU Result: 0000
+Time: 1900000 | PC: ffd8 | ALU Result: 0000
+Time: 2100000 | PC: ffda | ALU Result: 0000
+Time: 2300000 | PC: ffdc | ALU Result: 0000
+Time: 2500000 | PC: ffde | ALU Result: 0000
+Time: 2700000 | PC: ffe0 | ALU Result: 0000
+Time: 2900000 | PC: ffe2 | ALU Result: 0000
+Time: 3100000 | PC: ffe4 | ALU Result: 0000
+Time: 3300000 | PC: ffe6 | ALU Result: 0000
+Time: 3500000 | PC: ffe8 | ALU Result: 0000
+Time: 3700000 | PC: ffea | ALU Result: 0000
+Time: 3900000 | PC: ffec | ALU Result: 0000
+Time: 4100000 | PC: ffee | ALU Result: 0000
+Time: 4300000 | PC: fff0 | ALU Result: 0000
+Time: 4500000 | PC: fff2 | ALU Result: 0000
+Time: 4700000 | PC: fff4 | ALU Result: 0000
+Time: 4900000 | PC: fff6 | ALU Result: 0000
+Time: 5100000 | PC: fff8 | ALU Result: 0000
+Time: 5300000 | PC: fffa | ALU Result: 0000
+Time: 5500000 | PC: fffc | ALU Result: 0000
+Time: 5700000 | PC: fffe | ALU Result: 0000
+Time: 5900000 | PC: 0000 | ALU Result: 0000
+Time: 6100000 | PC: 0002 | ALU Result: 0001
+Time: 6300000 | PC: 0004 | ALU Result: 0000
+Time: 6500000 | PC: ffd4 | ALU Result: 0000
+Time: 6700000 | PC: ffd6 | ALU Result: 0000
+Time: 6900000 | PC: ffd8 | ALU Result: 0000
+Time: 7100000 | PC: ffda | ALU Result: 0000
+Time: 7300000 | PC: ffdc | ALU Result: 0000
+Time: 7500000 | PC: ffde | ALU Result: 0000
+Time: 7700000 | PC: ffe0 | ALU Result: 0000
+Time: 7900000 | PC: ffe2 | ALU Result: 0000
+Time: 8100000 | PC: ffe4 | ALU Result: 0000
+Time: 8300000 | PC: ffe6 | ALU Result: 0000
+Time: 8500000 | PC: ffe8 | ALU Result: 0000
+Time: 8700000 | PC: ffea | ALU Result: 0000
+Time: 8900000 | PC: ffec | ALU Result: 0000
+Time: 9100000 | PC: ffee | ALU Result: 0000
+Time: 9300000 | PC: fff0 | ALU Result: 0000
+Time: 9500000 | PC: fff2 | ALU Result: 0000
+Time: 9700000 | PC: fff4 | ALU Result: 0000
+Time: 9900000 | PC: fff6 | ALU Result: 0000
+tb_mips16.v:44: $finish called at 10000000 (100fs)
