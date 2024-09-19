@@ -6,5 +6,5 @@ module counter(count,enable,clk,rst_n);
    if(~rst_n) count <= 4'b0000;  
    else if(enable)  
     count <= count + 4'b0001;  
-  end  //fpga4student.com: FPga projects, Verilog projects, VHDL projects
+  end  
  endmodule 

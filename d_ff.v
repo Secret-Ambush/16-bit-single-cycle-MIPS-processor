@@ -1,5 +1,5 @@
 module D_FF (q, d, rst_n, clk,init_value);  
- output q;  //fpga4student.com: FPga projects, Verilog projects, VHDL projects
+ output q;
  input d, rst_n, clk,init_value;  
  reg q; // Indicate that q is stateholding  
  always @(posedge clk or negedge rst_n)  
