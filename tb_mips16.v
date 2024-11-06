@@ -7,7 +7,10 @@ module tb_mips16;
     // Outputs  
     wire [15:0] pc_out;  
     wire [15:0] alu_result;  
-    
+    // Uncomment if you need to monitor additional outputs
+    // wire [15:0] reg3;
+    // wire [15:0] reg4;
+
     // Instantiate the Unit Under Test (UUT)  
     mips_16 uut (  
         .clk(clk),   
@@ -45,8 +48,6 @@ module tb_mips16;
     initial begin
         $dumpfile("tb_mips16.vcd");      // Specify the VCD file name
         $dumpvars(0, tb_mips16);         // Dump all variables in tb_mips16
-    end
-
     end
 
 endmodule  
